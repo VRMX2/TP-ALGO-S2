@@ -51,14 +51,14 @@ Le projet contient plusieurs TPs progressifs ainsi qu'un mini-projet de chat pou
 - **Fichiers présents :** `p1.java`, `p2.java`, `p3.java`, `p4.java`, `P4Interface.java`.
 - **Objectif :** Pratiquer des scénarios plus complets avec davantage de structuration.
 
-### 💬 [`chat-app`] - Projet Chat Multi-modules (Maven)
+### 💬 [`Chat_Application_TCP_UDP`] - Projet Chat Multi-modules (Maven)
 *Application de discussion temps réel avec architecture modulaire*
 - **Modules :** `client`, `server`, `common`.
 - **Technos principales :** Java, Maven, JavaFX (UI), TCP/UDP.
 - **Entrées utiles :**
-  - `chat-app/pom.xml` (racine Maven)
-  - `chat-app/client/src/main/java/com/chatapp/client/ChatApplication.java`
-  - `chat-app/server/src/main/java/com/chatapp/server/ChatServer.java`
+  - `Chat_Application_TCP_UDP/pom.xml` (racine Maven)
+  - `Chat_Application_TCP_UDP/client/src/main/java/com/chatapp/client/ChatApplication.java`
+  - `Chat_Application_TCP_UDP/server/src/main/java/com/chatapp/server/ChatServer.java`
 
 ### 📄 Documentation complémentaire
 - `algo_resume_INTEGER.pdf`
@@ -99,9 +99,9 @@ Voici la démarche générale pour exécuter un TP donné. Vous devez toujours l
 
 > ⚠️ **Remarque :** Pour le TP4 (Client IP), si le serveur est en local, l'adresse IP définie en dur dans `TP4/p1.java` devra peut-être être remplacée par `localhost` (ou `127.0.0.1`) ou votre IP locale.
 
-### Exécution du projet `chat-app` (Maven)
+### Exécution du projet `Chat_Application_TCP_UDP` (Maven)
 
-Depuis le dossier `chat-app` :
+Depuis le dossier `Chat_Application_TCP_UDP` :
 
 ```bash
 mvn clean install
@@ -114,4 +114,3 @@ Puis lancez le serveur et ensuite le client selon votre configuration Maven/IDE.
 <div align="center">
   <i>Développé pour maîtriser la programmation réseau en Java.</i>
 </div>
-"# TP-ALGO-S2" 
